@@ -1,1 +1,16 @@
 DSP Automation Framework Code- implemented using Page Object Model.
+-Folder structure- 
+drivers :- WebDriver jar files
+reports :- generated HTML reports 
+screenshots :- screenshots of failed test cases
+src :- src/main/java
+	com.confluxsys.dsp.automation
+	1] utils - common code
+	2] implementation - action methods to perform actions on webelements
+	3] objectRepository - webelements related to the respective webpages
+	4] testCases - testcases related to the respective webpages
+	src/main/resource
+	- excel files
+pom.xml
+testng.xml- testng file to run a suite
+
