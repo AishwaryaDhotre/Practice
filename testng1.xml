@@ -1,0 +1,27 @@
+<suite name="suite1">
+<listeners>
+    <listener class-name="com.confluxsys.dsp.automation.utills.SuiteListener"/>
+        <listener class-name="com.confluxsys.dsp.automation.utills.SendReport"/>
+</listeners>
+    <test name="Basic Login Functionality">
+        <classes>
+            <class name="com.confluxsys.dsp.automation.testcases.uaradministration.HomePageTestCases"></class>
+        </classes>
+    </test>
+ <test name="Basic End to End Campaign Creation Flow">
+        <classes>
+            <class name="com.confluxsys.dsp.automation.testcases.uaradministration.CampaignCreationTestCases"></class>
+        </classes>
+    </test>
+    <test name="Demo test 3">
+        <classes>
+        <class name="com.confluxsys.dsp.automation.testcases.accessreview.DemoClass_1"></class>
+        </classes>
+    </test>
+    <test name="Demo test 4">
+        <classes>
+            <class name="com.confluxsys.dsp.automation.testcases.accessreview.DemoClass_2"></class>
+        </classes>
+    </test>
+
+</suite>

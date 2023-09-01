@@ -1,0 +1,14 @@
+<suite name="suite1">
+
+    <test name="Basic Login Functionality">
+        <classes>
+            <class name="com.confluxsys.dsp.automation.testcases.uaradministration.HomePageTestCases"></class>
+        </classes>
+    </test>
+   <test name="Basic End to End Campaign Creation Flow">
+        <classes>
+            <class name="com.confluxsys.dsp.automation.testcases.uaradministration.CampaignCreationTestCases"></class>
+        </classes>
+    </test>
+
+</suite>
